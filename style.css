@@ -1,0 +1,226 @@
+/* sets variables */
+:root {
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+}
+/* sets variables */
+/* start global value */
+body {
+    height: 100vh;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* end global value */
+/* start header */
+header {
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+header nav ul  {
+    display: flex;
+    flex-direction: row;
+}
+header nav ul li {
+    list-style-type:none;
+    margin: 0 40px;
+    font-weight: 400;
+    color: #00000e;
+}
+@media (max-width: 992px){
+    header nav ul li {
+        margin: 0 15px;
+    }
+}
+/* end of the navBar */
+.texts-svg .texts{
+    margin-top: 180px;
+}
+.texts-svg .texts h1 {
+    font-weight: 700;
+    font-size: 40px;
+    font-family:"Raleway";
+    color: var(--Very-Dark-Blue);
+}
+.texts-svg .texts p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Very-Dark-Blue);
+}
+.texts-svg .texts form input {
+    width: 315px;
+    padding:8px 20px;
+    font-size: 13px;
+}
+.texts-svg .texts form button{
+    background-color: var(--Bright-Blue);
+    padding: 8px 29px;
+    border-radius: 2px;
+    color: #fff;
+    margin-top: 30px;
+    border: 0;
+}
+.images img{
+    height: 507px;
+    width: 550px;
+    margin-top: 105px;
+}
+/* end header */
+/* start main */
+
+.main {
+    background-image: url(images/bg-curve-desktop.png);
+    background-repeat: no-repeat;
+    margin-top: 175px;
+    padding-top: 110px;
+    
+}
+.main .bg-color {
+    background-color: var(--Light-Grayish-Blue);
+    padding-bottom: 105px;
+}
+.main .bg-color .t-exts {
+    padding-top: 115px;
+    font-family: "Raleway";
+    color: var(--Very-Dark-Blue);
+}
+.main .bg-color .t-exts h1 {
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.main .bg-color .t-exts  p {
+    font-weight: 400;
+    font-size: 15px;
+}
+.main .bg-color .t-exts span {
+    color: var(--Moderate-Cyan);
+    border-bottom: 1px solid var(--Moderate-Cyan);
+    font-size: 15px;
+    font-weight: 400;
+}
+.main .bg-color  .card {
+    margin-top: 45px;
+    width: 360px;
+    height: 217px;
+    padding: 25px 36px 25px 35px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main .bg-color  .card .quotes {
+    width: 15px;
+    height: 14px;
+    margin-bottom: 18px;
+}
+.main .bg-color .card p {
+    color: var(--Very-Dark-Blue);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.main .bg-color .image-Kyle {
+    display: flex;
+}
+.main .bg-color .image-Kyle img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main .bg-color .image-Kyle .te-kyle {
+    color: var(--Very-Dark-Blue);
+    padding-left: 10px;
+
+}
+.main .bg-color .image-Kyle .te-kyle h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.main .bg-color .image-Kyle .te-kyle p {
+    font-size: 11px;
+}
+/* end of the card an first row */
+
+.next-row img {
+    width: 535px;
+    height: 410px;
+    margin-top: 118px;
+    padding-left: 70px;
+} 
+/* start next row */
+footer .acess {
+    height: 320px;
+    background-color: var(--Desaturated-Blue);
+    color: #fff;
+    font-family: "Raleway";
+    display: flex;
+    align-items: center;
+}
+footer .acess .para-footer h1{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+footer .acess .para-footer p {
+    font-weight: 400;
+    font-size: 14px;
+    opacity: .8;
+}
+footer .acess .forms input {
+    width: 480px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 10px;
+    border: 0;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+} 
+footer .acess .forms input::placeholder {
+    opacity: .5;
+}
+footer .acess .forms button {
+    background-color: var(--Bright-Blue);
+    padding: 8px 29px;
+    border-radius: 2px;
+    color: #fff;
+    border: 0;
+}
+footer .contact {
+    height: 100%;
+    background-color: var(--Very-Dark-Blue);
+    color: #fff !important;
+    font-family: "Open Sans";
+    padding-top: 105px;
+    font-size: 15px;
+    font-weight: 400;
+}
+footer .contact .sv-g {
+    margin-bottom: 24px;
+}
+footer .contact .row-1 span {
+    margin-left: 15px;
+}
+footer .contact ul {
+    list-style-type: none;
+}
+footer .contact ul li {
+    margin-bottom: 15px;
+}
+footer .contact ul li a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .9;
+}
+
+
+/* end next row */
+
+
+/* end main */
